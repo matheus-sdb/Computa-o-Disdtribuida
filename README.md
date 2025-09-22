@@ -89,5 +89,5 @@ Saídas esperadas: `OK 3`, `OK -10.5`, `ERR EZDV divisao_por_zero`, `OK 12`, `OK
 
 ---
 
-**Autor:** (preencha com seu nome/turma)  
+**Autor:** Matheus S de Brito - 10408953
 **Como avaliar:** use os exemplos acima, rode casos inválidos (tokens faltando, tipos inválidos, `DIV` por zero) e confira respostas `ERR`.
