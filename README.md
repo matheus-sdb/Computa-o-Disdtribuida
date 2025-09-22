@@ -74,13 +74,14 @@ Em dois terminais:
 
 # Terminal 2
 ./client 127.0.0.1 5050
-ADD 1 2
+ADD 10 2
 MUL -3 3.5
 DIV 5 0
 10 + 2
 QUIT
 ```
-Saídas esperadas: `OK 3`, `OK -10.5`, `ERR EZDV divisao_por_zero`, `OK 12`, `OK bye`.
+<img width="1603" height="506" alt="image" src="https://github.com/user-attachments/assets/8e1b7912-f54c-43a5-8669-fde5d3816d7d" />
+
 
 ## Limitações
 - Conexões **IPv4** apenas (simples e suficiente para a atividade).
@@ -89,6 +90,6 @@ Saídas esperadas: `OK 3`, `OK -10.5`, `ERR EZDV divisao_por_zero`, `OK 12`, `OK
 
 ---
 
-**Autor:** Matheus S de Brito - 10408953
+**Autor:** Matheus S de Brito - RA: 10408953
 
 **Como avaliar:** use os exemplos acima, rode casos inválidos (tokens faltando, tipos inválidos, `DIV` por zero) e confira respostas `ERR`.
